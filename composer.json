@@ -1,0 +1,24 @@
+{
+    "name": "logicspot/invoicepdfupdate",
+    "description": "invoice pdf update",
+    "type": "magento2-module",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Malinder",
+            "email": "singh.malinder94@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "~7.1.0|~7.2.0|~7.3.0|~7.4.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "LogicSpot\\InvoicePdfUpdate\\": ""
+        }
+    }
+}

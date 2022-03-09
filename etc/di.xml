@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Sales\Model\Order\Pdf\Invoice">
+        <plugin name="logicspot_pdf_invoice_footer" type="LogicSpot\InvoicePdfUpdate\Plugin\Order\Pdf\InvoicePdf" />
+    </type>
+</config>
